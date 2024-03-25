@@ -15,9 +15,6 @@
 
 QueueHandle_t xQueueAdc;
 
-#define DEAD_ZONE_LOWER 1995
-#define DEAD_ZONE_UPPER 2195
-
 typedef struct adc {
     int axis;
     int val;
